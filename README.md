@@ -2,11 +2,13 @@
 To Check Version of Git Bash
 
 Right Way : There is Space after git
+<br>
 mohit@First-Hokage MINGW64 ~
 $ git --version
 git version 2.45.0.windows.1
 
-Wrong Way : there is no space 
+Wrong Way : there is no space
+<br>
 mohit@First-Hokage MINGW64 ~
 $ git--version
 bash: git--version: command not found
@@ -16,6 +18,7 @@ Here ~ means Root Directory
 
 
 ls is used to check list of files & Folders
+<br>
 mohit@First-Hokage MINGW64 ~
 $ ls
 '3D Objects'/
@@ -61,6 +64,7 @@ clear is used for clearing window
 
 
 pwd is used to know working directory
+<br>
 mohit@First-Hokage MINGW64 ~
 $   pwd
 /c/Users/mohit
