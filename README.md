@@ -12,6 +12,8 @@ Wrong Way : there is no space
 mohit@First-Hokage MINGW64 ~
 $ git--version
 bash: git--version: command not found
+
+
 <br>
 Here ~ means Root Directory
 <br>
