@@ -1,8 +1,4 @@
 # Learning-Git-GitHub
-"<br>" is used for next line
-<br>
-Just like basic HTML Commands and Function
-<br>
 To Check Version of Git Bash
 <br>
 Right Way : There is Space after git
