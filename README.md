@@ -6,14 +6,12 @@ Right Way : There is Space after git
 mohit@First-Hokage MINGW64 ~
 $ git --version
 git version 2.45.0.windows.1
-
 <br>
 Wrong Way : there is no space 
 <br>
 mohit@First-Hokage MINGW64 ~
 $ git--version
 bash: git--version: command not found
-
 <br>
 Here ~ means Root Directory
 <br>
