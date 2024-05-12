@@ -1,0 +1,28 @@
+git branch (to check branch)
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> git branch
+* main
+
+
+git branch -M main (to rename branch)
+
+
+git checkout <- branch name-> (to navigate)
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> git checkout
+M       Init Command
+D       Local-Repo
+Your branch is up to date with 'origin/main'.
+
+
+git checkout -b <-new branch name-> (to create new branch)
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> git checkout -b feature1
+Switched to a new branch 'feature1'
+
+
+git branch -d <- branch name-> (to delete branch)
+if you are already on a checkout of a branch you cannot delete it
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> git branch -d feature2
+error: cannot delete branch 'feature2' used by worktree at 'D:/HDD Data/A Disk/CODE/Visual Studio Code/GiT Demo/Learning-Git-GitHub'
+
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> git branch -d feature2
+Deleted branch feature2 (was 0eaa31f).
+

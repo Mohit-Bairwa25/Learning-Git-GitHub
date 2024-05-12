@@ -6,20 +6,107 @@ PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo>
 
 To make new Reposatoray
 mkdir "Reposatoray Name"
-PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo> mkdir Local
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> mkdir Local-Repo
 
-    Directory: D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo
+    Directory: D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub
 
 Mode                 LastWriteTime         Length Name
 ----                 -------------         ------ ----
-d----          12-05-2024 02:59 PM                Local
-
+d----          12-05-2024 03:03 PM                Local-Repo
 
 
 init - used to create a new git repo
-git inint
+git init
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub\Local-Repo> git init  
+Initialized empty Git repository in D:/HDD Data/A Disk/CODE/Visual Studio Code/GiT Demo/Learning-Git-GitHub/Local-Repo/.git/
+
+
 git remote add origin <-link->
+PS D:\HDD Data\A Disk\CODE\git remote add origin https://github.com/Mohit-Bairwa25/HTML
+
+
 git remote -v (to verify remote)
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub\Local-Repo> git remote -v
+origin  https://github.com/Mohit-Bairwa25/HTML.git (fetch)
+origin  https://github.com/Mohit-Bairwa25/HTML.git (push)
+
+
 git branch (to check branch)
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub\Local-Repo> git branch   
+* main
+
+
 git branch -M (to rename branch)
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub\Local-Repo> git branch -M Master
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub\Local-Repo> git branch
+* Master
+
+
 git push origin main
+IF this does not work try
+git push origin main --force
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub\Local-Repo> git push origin main --force
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 456 bytes | 76.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/Mohit-Bairwa25/HTML.git
+ + 843f99e...f933cb8 main -> main (forced update)
+
+
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> git add .
+warning: adding embedded git repository: Local-Repo
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of    
+hint: the embedded repository and will not know how to obtain it.        
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> Local-Repo
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached Local-Repo
+hint:
+hint: See "git help submodule" for more information.
+hint: Disable this message with "git config advice.addEmbeddedRepo false"
+
+This means the Sub-contents of Local-Repo Folder will not be uploded
+if you want to copy Sub-contents of Local Repo Folder learn & use 
+Git Submodules
+
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Add & Commit
+        modified:   Clone & Status
+        new file:   Init Command
+        new file:   Local-Repo
+        new file:   Push Command
+
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> git commit -m"New Data"
+[main 0eaa31f] New Data
+ 5 files changed, 84 insertions(+)
+ create mode 100644 Init Command
+ create mode 160000 Local-Repo
+ create mode 100644 Push Command
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> git push origin main   
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 1.76 KiB | 450.00 KiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/Mohit-Bairwa25/Learning-Git-GitHub.git
+   e611eb9..0eaa31f  main -> main
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> 
+
+
+git push -u origin main
+to automatically push
