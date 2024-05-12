@@ -1,0 +1,25 @@
+to get out of the directory use
+cd ..
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> cd ..      
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo> 
+
+
+To make new Reposatoray
+mkdir "Reposatoray Name"
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo> mkdir Local
+
+    Directory: D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d----          12-05-2024 02:59 PM                Local
+
+
+
+init - used to create a new git repo
+git inint
+git remote add origin <-link->
+git remote -v (to verify remote)
+git branch (to check branch)
+git branch -M (to rename branch)
+git push origin main

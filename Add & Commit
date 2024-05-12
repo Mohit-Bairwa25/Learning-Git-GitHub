@@ -1,0 +1,30 @@
+add - adds or changed files in your working directoy to the Git staging area
+git add <file name>
+or use
+git add .
+to add all files
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> git add .
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)    
+        new file:   Add & Commit
+        modified:   Clone & Status
+        modified:   Configuring Git
+        modified:   Setting Up Git, GitHub & GitBash.md
+
+
+commit - it is the record of change
+git commit -m "some message"
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> git commit -m"Adding 4 Files"
+[main e611eb9] Adding 4 Files     
+ 4 files changed, 72 insertions(+)
+ create mode 100644 Add & Commit  
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)  
+
+nothing to commit, working tree clean

@@ -66,3 +66,18 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a")
 
+
+untracked
+new files that git doesn"t yet track
+
+
+modified
+changed
+
+
+Staged
+files is ready to be commited
+
+
+unmodified
+unchanged
