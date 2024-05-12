@@ -1,1 +1,68 @@
+To Clone Git Reposatoray in System use
+git clone "Repository Link" 
+mohit@First-Hokage MINGW64 ~
+$ git clone https://github.com/Mohit-Bairwa25/Learning-Git-GitHub.git
+
+
+cd is for change of directoray in terminal
+cd "Folder Name"
+
+
+ls is used for list of files
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> ls
+
+    Directory: D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---          12-05-2024 01:42 PM              2 Clone & Status
+-a---          12-05-2024 01:42 PM            807 Configuring Git
+-a---          12-05-2024 01:42 PM           1488 Setting Up Git, GitHub & GitBash.md 
+
+
+To View Hidden Files Type
+ls -a
+This is used to view All Files
+
+
+To Know The Status of Your File Type
+git status
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> git status   
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+
+After a Change in Your File Save Your File with Ctrl+s
+and Check status again it wil show
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> git status 
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)     
+        modified:   Clone & Status
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+Affter adding a new file it will show that file as a untracked file
+PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   Clone & Status
+        modified:   Configuring Git
+        modified:   Setting Up Git, GitHub & GitBash.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Add & Commit
+
+no changes added to commit (use "git add" and/or "git commit -a")
 

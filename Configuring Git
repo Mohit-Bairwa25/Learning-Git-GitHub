@@ -1,10 +1,13 @@
 Make Sure there is a space after user.name
 
+
 mohit@First-Hokage MINGW64 ~
 $ git config --global user.name "Mohit-Bairwa25"
 
+
 mohit@First-Hokage MINGW64 ~
 $ git config --global user.email "mohit.bairwa25@gmail.com"
+
 
 mohit@First-Hokage MINGW64 ~
 $ git config --list
