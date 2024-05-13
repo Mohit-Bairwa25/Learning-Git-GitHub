@@ -1,0 +1,15 @@
+Case 1 :- Staged Changes
+        git reset<-file name->
+        git reset
+
+Case 2 :- commited changes (for one commit)
+        git reset HEAD~1
+
+Case 3 :- Commited changes (for many commits)
+        git reset <-commit hash->
+        git reset --hard <-commit hash->
+        It helps to reset changes from both git & vscode
+
+git log
+to check all the changes
+use Q to quit
