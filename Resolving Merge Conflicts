@@ -1,0 +1,8 @@
+An events that take place when Git is unable to automatically resolve differences in code between two commits
+
+If there are 2 branches main & feature 1
+and You are currently working on feature1
+
+then use
+git merge "Other Branch Name"
+git merge main
