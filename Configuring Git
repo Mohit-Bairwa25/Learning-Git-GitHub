@@ -1,6 +1,11 @@
 Make Sure there is a space after user.name
 
 
+⦁	git config --global user.name "My Name"
+⦁	git config --global user.email"someone@email.com"
+⦁	git config --list
+
+
 mohit@First-Hokage MINGW64 ~
 $ git config --global user.name "Mohit-Bairwa25"
 
@@ -28,3 +33,5 @@ credential.https://dev.azure.com.usehttppath=true
 init.defaultbranch=main
 user.name=Mohit-Bairwa25
 user.email=mohit.bairwa25@gmail.com
+
+In Line 29 & 30 There is Username & Useremail

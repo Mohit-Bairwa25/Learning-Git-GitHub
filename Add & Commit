@@ -1,7 +1,7 @@
 add - adds or changed files in your working directoy to the Git staging area
-git add <file name>
+⦁	git add <file name>
 or use
-git add .
+⦁	git add .
 to add all files
 PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> git add .
 PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> git status
@@ -17,7 +17,7 @@ Changes to be committed:
 
 
 commit - it is the record of change
-git commit -m "some message"
+⦁	git commit -m "some message"
 PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> git commit -m"Adding 4 Files"
 [main e611eb9] Adding 4 Files     
  4 files changed, 72 insertions(+)

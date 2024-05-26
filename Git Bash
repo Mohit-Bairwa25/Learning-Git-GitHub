@@ -1,0 +1,14 @@
+⦁	git --version
+to know the version of git(Make Sure to Give Space)
+
+⦁	ls
+to know the list of files/folders
+
+⦁	ls -a
+to See All Hidden files with all files and Folders
+
+⦁	clear
+to clear terminal
+
+⦁	pwd
+to know root directory path

@@ -1,11 +1,11 @@
 to get out of the directory use
-cd ..
+⦁	cd ..
 PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> cd ..      
 PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo> 
 
 
 To make new Reposatoray
-mkdir "Reposatoray Name"
+⦁	mkdir "Reposatoray Name"
 PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> mkdir Local-Repo
 
     Directory: D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub
@@ -16,33 +16,33 @@ d----          12-05-2024 03:03 PM                Local-Repo
 
 
 init - used to create a new git repo
-git init
+⦁	git init
 PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub\Local-Repo> git init  
 Initialized empty Git repository in D:/HDD Data/A Disk/CODE/Visual Studio Code/GiT Demo/Learning-Git-GitHub/Local-Repo/.git/
 
 
-git remote add origin <-link->
+⦁	git remote add origin <-link->
 PS D:\HDD Data\A Disk\CODE\git remote add origin https://github.com/Mohit-Bairwa25/HTML
 
 
-git remote -v (to verify remote)
+⦁	git remote -v (to verify remote)
 PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub\Local-Repo> git remote -v
 origin  https://github.com/Mohit-Bairwa25/HTML.git (fetch)
 origin  https://github.com/Mohit-Bairwa25/HTML.git (push)
 
 
-git branch (to check branch)
+⦁	git branch (to check branch)
 PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub\Local-Repo> git branch   
 * main
 
 
-git branch -M (to rename branch)
+⦁	git branch -M (to rename branch)
 PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub\Local-Repo> git branch -M Master
 PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub\Local-Repo> git branch
 * Master
 
 
-git push origin main
+⦁	git push origin main
 IF this does not work try
 git push origin main --force
 PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub\Local-Repo> git push origin main --force
@@ -108,5 +108,5 @@ To https://github.com/Mohit-Bairwa25/Learning-Git-GitHub.git
 PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> 
 
 
-git push -u origin main
-to automatically push
+⦁	git push -u origin main
+(To Set Up Push {To} Origin Main Automatically So Next Time Type "git	push" only ) [Try "gp"]

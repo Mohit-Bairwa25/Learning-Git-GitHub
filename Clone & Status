@@ -1,14 +1,15 @@
 To Clone Git Reposatoray in System use
-git clone "Repository Link" 
+⦁	git clone "Repository Link" 
+
 mohit@First-Hokage MINGW64 ~
 $ git clone https://github.com/Mohit-Bairwa25/Learning-Git-GitHub.git
 
 
 cd is for change of directoray in terminal
-cd "Folder Name"
+⦁	cd "Folder Name"
 
 
-ls is used for list of files
+⦁	ls is used for list of files
 PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> ls
 
     Directory: D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub
@@ -21,12 +22,12 @@ Mode                 LastWriteTime         Length Name
 
 
 To View Hidden Files Type
-ls -a
+⦁	ls -a
 This is used to view All Files
 
 
 To Know The Status of Your File Type
-git status
+⦁	git status
 PS D:\HDD Data\A Disk\CODE\Visual Studio Code\GiT Demo\Learning-Git-GitHub> git status   
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -67,17 +68,19 @@ Untracked files:
 no changes added to commit (use "git add" and/or "git commit -a")
 
 
-untracked
+
+There are 4 Types of Status
+1.untracked
 new files that git doesn"t yet track
 
 
-modified
+2.modified
 changed
 
 
-Staged
+3.Staged
 files is ready to be commited
 
 
-unmodified
+4.unmodified
 unchanged
