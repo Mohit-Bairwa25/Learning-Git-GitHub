@@ -1,12 +1,12 @@
 Git by default Ignore Sub Repository
 
-⦁	 git submodule
+⦁	 git submodule                          (Manages submodules, Git repositories nested inside another repository)
 ⦁	git submodule add <- Sub Repo Link ->   (Adds a new submodule to your repository.)
-⦁	git submodule update
+⦁	git submodule update                    (Updates  all submodules in your repository)
 ⦁	git submodule deinit -f "Sub Repo"		(To Remove Sub repo)
 ⦁	rm -rf <- .git/Path ->                  (Removes the specified path in the .git directory)
-⦁	rm -rf <- File name ->                  (Removes the specified file from your local system.)
-⦁	git rm -f <-Path->                      (Removes the specified file from your Git repository.)
+⦁	rm -rf <- File name ->                  (Removes the specified file from your local system)
+⦁	git rm -f <-Path->                      (Removes the specified file from your Git repository)
 
 1.Updating Submodules: After pulling changes that include a submodule update, run 
 ⦁	git submodule update --remote to fetch and merge the latest changes in all submodules.
